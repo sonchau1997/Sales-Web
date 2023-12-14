@@ -21,6 +21,7 @@ import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 @EnableJpaRepositories(basePackages = {"com.laptrinhjavaweb.repository"})
 @EnableTransactionManagement
 public class JPAConfig {
+	//test
 	
 	@Bean
 	public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
